@@ -1,0 +1,200 @@
+ * {
+     box-sizing: border-box;
+     padding: 0%;
+     margin: 0%;
+ }
+
+ nav {
+     padding: 5px;
+
+
+ }
+
+ .btn {
+     color: cadetblue;
+     margin: 0.5vh;
+     border-radius: 1.1vh;
+     border: solid 1px cadetblue;
+     background: transparent;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 16px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+ .btn:hover {
+     background-color: #ddd;
+     color: black;
+ }
+
+ .btn:active {
+     background-color: cadetblue;
+     color: antiquewhite;
+ }
+
+ .allbtns {
+     margin-bottom: 15px;
+     padding: 2px;
+     width: fit-content;
+
+
+ }
+
+ body {
+     background-color: #c0d6df;
+ }
+
+ .box {
+
+     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+     display: flex;
+     border-radius: 15px;
+     background-color: cadetblue;
+     border: 5px solid whitesmoke;
+     /* width: fit-content; */
+     margin-bottom: 2vh;
+     /* margin-left:10vh ; */
+     height: fit-content;
+
+ }
+
+
+ a,
+ h1,
+ h2,
+ h3,
+ pre,
+ p {
+     text-align: justify;
+     color: whitesmoke;
+     padding: 0.5vh;
+     margin: 1vh;
+     margin-bottom: 1vh;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ p {
+     font-size: 1.5em;
+     word-spacing: -1.5px;
+ }
+
+ h1,
+ a,
+ .box,
+ #nandpic,
+ .allbtns {
+     margin-right: auto;
+     margin-left: auto;
+ }
+
+ h1 {
+     width: 50%;
+ }
+
+ a {
+     margin: 5%;
+     padding: 3%;
+ }
+
+ #nandpic {
+     width: 25em;
+     border-left: 5px whitesmoke solid;
+     border-radius: 15px;
+ }
+
+ #box1 {
+     max-width: 70%
+ }
+
+ /* #st{float: left; width: 48%; #box1 {max-width : 45%}  padding: 10px;} */
+ /* #nd{float: right ; width: 48%;padding: 10px;} */
+ /* #rd{float: left;width: 48%;padding: 10px;} */
+ /* #th{float: right;width: 48%;padding: 10px;}  */
+ /* main {max-width: 1400px; width: 80%;} */
+
+ #main {
+     width: 25em;
+     padding: 5%;
+     border-radius: 5px;
+     height: 25em;
+ }
+
+ main {
+     display: flex;
+ }
+
+ @media (max-width : 5000px) {
+     main {
+         flex-direction: row;
+         justify-content: center;
+         flex-wrap: wrap;
+         margin-top: 100px;
+     }
+
+ }
+
+ .box {
+     width: 800px;
+ }
+ }
+
+
+ @media(min-width:800px) {
+     .box {
+         height: fit-content;
+         display: inline-grid;
+         margin-top: 100px;
+
+
+     }
+ }
+
+ .navbar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     color: white;
+     opacity: 0.8;
+     width: 100%;
+     height: 80px;
+     position: fixed;
+     top: 0px;
+     padding: 0;
+     background-color: #333;
+     min-width: 600px;
+     z-index: 99;
+ }
+
+ .navbar a {
+     color: white;
+     padding: 10px 20px;
+     margin: 0 5px;
+
+
+ }
+
+ .navbar a:hover {
+     border-bottom: cadetblue solid 2px;
+ }
+
+ .navbar ul {
+     display: flex;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ a {
+     color: #333;
+     text-decoration: none;
+ }
+
+ body {
+     background: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-70830.jpg?w=1480&t=st=1672736068~exp=1672736668~hmac=2e784c67bab9ba12a0d9e12b544803e4e7d7fcb5ab831e4cd620d58a679ce7a5') no-repeat center center/cover;
+     height: fit-content;
+     position: relative;
+     color: #fff;
+ }
